@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Colegiul Național "Grigore Moisil" Urziceni</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+header {
+    background-color: #1a237e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* NAVBAR */
+nav {
+    background-color: #283593;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    background-color: #3949ab;
+}
+
+/* DROPDOWN */
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: #3949ab;
+    min-width: 220px;
+    flex-direction: column;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul li a {
+    padding: 10px;
+}
+
+/* CONTENT */
+section {
+    padding: 30px;
+}
+
+footer {
+    background-color: #1a237e;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>Colegiul Național "Grigore Moisil" Urziceni</h1>
+    <p>Educație pentru viitor</p>
+</header>
+
+<nav>
+<ul>
+
+<li><a href="#">Despre noi</a>
+    <ul>
+        <li><a href="#">Istoric</a></li>
+        <li><a href="#">Grigore Moisil</a></li>
+        <li><a href="#">PDI 2022-2026</a></li>
+        <li><a href="#">Echipa</a></li>
+        <li><a href="#">ROI</a></li>
+        <li><a href="#">ROF</a></li>
+        <li><a href="#">Consiliul de Administrație</a></li>
+        <li><a href="#">Comitetul de părinți</a></li>
+    </ul>
+</li>
+
+<li><a href="#">Evaluări</a>
+    <ul>
+        <li><a href="#">EN 2-4-6</a></li>
+        <li><a href="#">EN Clasa a VIII-a</a></li>
+        <li><a href="#">Bacalaureat</a></li>
+        <li><a href="#">Atestat</a></li>
+        <li><a href="#">Examene</a></li>
+    </ul>
+</li>
+
+<li><a href="#">Proiecte</a>
+    <ul>
+        <li><a href="#">PNRR</a></li>
+        <li><a href="#">ERASMUS+</a></li>
+        <li><a href="#">E-Twinning</a></li>
+    </ul>
+</li>
+
+<li><a href="#">Excelență</a>
+    <ul>
+        <li><a href="#">Rezultate olimpiadă gimnaziu</a></li>
+        <li><a href="#">Rezultate olimpiadă liceu</a></li>
+    </ul>
+</li>
+
+<li><a href="#">Admitere</a>
+    <ul>
+        <li><a href="#">Clasa pregătitoare</a></li>
+        <li><a href="#">Clasa a V-a</a></li>
+        <li><a href="#">Liceu</a></li>
+    </ul>
+</li>
+
+<li><a href="#">Contact</a>
+    <ul>
+        <li><a href="#">Informații contact</a></li>
+        <li><a href="#">Program secretariat</a></li>
+    </ul>
+</li>
+
+</ul>
+</nav>
+
+<section>
+    <h2>Bine ați venit!</h2>
+    <p>Acesta este site-ul oficial al Colegiului Național "Grigore Moisil" Urziceni.</p>
+    <p>Aici veți găsi informații despre activitatea școlii, proiecte, rezultate și admitere.</p>
+</section>
+
+<footer>
+    <p>&copy; 2026 Colegiul Național "Grigore Moisil" Urziceni</p>
+</footer>
+
+</body>
+</html>
